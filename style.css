@@ -24,7 +24,7 @@ h1 {
 
 .menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 10;
     z-index: 10;
@@ -32,7 +32,7 @@ h1 {
 }
 
 .links {
-list-style:none;
+    list-style: none;
     float: left;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -45,4 +45,12 @@ list-style:none;
 
 .links:hover {
     background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
 }
